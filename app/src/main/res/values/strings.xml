@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RPG</string>
+    <string name="btn_criar_jogador">Criar Jogador</string>
+    <string name="btn_criar_mestre">Criar Mestre</string>
+    <string name="btn_criar_monstro">Criar Monstro</string>
+    <string name="btn_criar_item">Criar Item</string>
+    <string name="btn_criar_lugar">Criar Lugar</string>
+    <string name="text_mainscreen_rights">Esse app foi desenvolvido por Arthur Figueiredo</string>
+    <string name="welcome_title">Bem vindo(a) à Kalador!</string>
+</resources>

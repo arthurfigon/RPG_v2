@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSecondaryVariant"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/medievalsharp"
+        android:text="Nome do Jogador:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt_UsernameCreation"
+        android:layout_marginTop="16dp"
+        android:layout_width="256dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/editbox_background_normal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/medievalsharp"
+        android:text="Classe:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt_UserClass"
+        android:layout_marginTop="16dp"
+        android:layout_width="256dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/editbox_background_normal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:fontFamily="@font/medievalsharp"
+        android:text="Raça:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt_UserRace"
+        android:layout_marginTop="16dp"
+        android:layout_width="256dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/editbox_background_normal" />
+
+    <Button
+        android:id="@+id/btn_confirmUser"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:text="@string/btn_criar_jogador"
+        android:layout_gravity="center"
+        android:fontFamily="@font/medievalsharp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

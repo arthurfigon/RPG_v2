@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSecondaryVariant"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txv_tituloApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        android:fontFamily="@font/medievalsharp"
+        android:text="@string/welcome_title"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btn_criarJogador"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:text="@string/btn_criar_jogador"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_criarMestre"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:text="@string/btn_criar_mestre"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_criarMonstro"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:text="@string/btn_criar_monstro"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_criarItem"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:text="@string/btn_criar_item"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/btn_criarLugar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:text="@string/btn_criar_lugar"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/txv_direitosTelaPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="24dp"
+        android:fontFamily="@font/medievalsharp"
+        android:text="@string/text_mainscreen_rights"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
